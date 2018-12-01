@@ -1,28 +1,63 @@
-.body{
-  margin:0;
-}
-
-
 .topbar-tt {
      height:40px;
      background: #333333;
      margin: 0 auto;
      color: #b0b0b0;
      font-size:12px;
-     line-height: 40px;
+     line-height:40px;
 }
-
-
+     
+a{
+  color:#b0b0b0
+}
+ a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
 
 .Container-11{
        width:1226px;
        margin-right: auto;
        margin-left: auto;
        padding:0;
-       cursor:pointer;
-}
-
-
-.shoppingcart-tt:{
+       cursor:pointer
   
 }
+
+.shoppingcart-tt{
+    position: relative;
+    z-index: 32;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background: #424242;
+    margin-right: 4px;
+    font-size: 12px;
+    line-height: 40px;
+    vertical-align: -4px;
+}
+
+.header-logo-11{
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+}
+
+.jf-category-nav{
+    float: left;
+    width:850p
+}
+
+.nav-list-11{
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 820px;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+
